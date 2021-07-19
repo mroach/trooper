@@ -1,0 +1,9 @@
+#!/usr/bin/env ruby
+# frozen_string_literal: true
+
+require "thor"
+
+load File.expand_path("#{__dir__}/../lib/boot.rb")
+load File.expand_path("#{__dir__}/../lib/cli.rb")
+
+TrooperCLI.start(ARGV)

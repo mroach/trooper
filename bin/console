@@ -1,0 +1,7 @@
+#!/usr/bin/env ruby
+# frozen_string_literal: true
+
+load File.expand_path("#{__dir__}/../lib/boot.rb")
+
+require "irb"
+IRB.start(__FILE__)
